@@ -11,10 +11,22 @@
     background-color: #161616;
     color: #FFFFFF;
     padding-left: 50px;
+    height: 400px;
+    border-radius: 20px;
 }
 .half-width{
     width: 50%;
 }
 .half-width img{
     width: 80%;
+}
+.half-width h1{
+    font-weight: 700;
+font-size: 4vw;
+}
+.button-style{
+    background-color: blue;
+    border: none;
+    border-radius: 20px;
+    color: #FFFFFF;
 }
