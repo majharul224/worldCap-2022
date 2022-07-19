@@ -46,7 +46,7 @@ body{
 
 /* ----------footer style start------------- */
 .footer-container{
-    height: 200px;
+    height: 180px;
     width: auto;
     background-color: #000000;
 }
@@ -66,6 +66,6 @@ body{
 }
 .media-icon{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     color: #E5E5E5;
 }
