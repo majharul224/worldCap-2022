@@ -1,17 +1,21 @@
+/* --------font style----------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-*{
+
+/* ------common style -------*/
+body{
     margin: 0, auto;
     font-family: 'Poppins', sans-serif;
 }
+/*---------- header style-------------- */
 .header-container{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #161616;
-    color: #FFFFFF;
+    background-color: #E5E5E5;
+    color: #000000;
     padding-left: 50px;
-    height: 400px;
+    height: 500px;
     border-radius: 20px;
 }
 .half-width{
@@ -22,11 +26,46 @@
 }
 .half-width h1{
     font-weight: 700;
-font-size: 4vw;
+     font-size: 4vw;
 }
 .button-style{
-    background-color: blue;
+    display: flex;
+    align-items: center;
+    background-color:  #ff9a00;
     border: none;
-    border-radius: 20px;
+    border-radius: 5px;
     color: #FFFFFF;
+    padding: 5px 15px;
+    font-size: 10px;
+    font-weight: 700;
+}
+.fa-greater-than{
+    margin-left: 5px;
+    font-size: 8px;
+}
+
+/* ----------footer style start------------- */
+.footer-container{
+    height: 200px;
+    width: auto;
+    background-color: #000000;
+}
+.footer-container h1{
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.contactUs{
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+}
+.contactUs a{
+  text-decoration: none ;
+  color: #FFFFFF;
+}
+.media-icon{
+    display: flex;
+    justify-content: space-around;
+    color: #E5E5E5;
 }
