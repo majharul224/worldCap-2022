@@ -7,7 +7,7 @@ body{
     margin: 0, auto;
     font-family: 'Poppins', sans-serif;
 }
-/*---------- header style-------------- */
+/*---------- header style start-------------- */
 .header-container{
     display: flex;
     align-items: center;
@@ -44,6 +44,9 @@ body{
     margin-left: 5px;
     font-size: 20px;
 }
+/*---------- header style end-------------- */
+
+
 /*---------------- main tag  style start ------------*/
 .box-container{
     display: flex;
@@ -162,6 +165,9 @@ padding: 10px;
 
 
 /*----------------------- media quariya------------------ */
+
+/*------------------- device mobail start------------------------*/
+
 @media screen and  (max-width : 576px) {
     .header-container{
         display: flex;
@@ -225,9 +231,10 @@ padding: 10px;
     }
 }
 
-/*------------------- device mobail ------------------------*/
+/*------------------- device mobail end------------------------*/
 
-/*-----------------------device tablet------------------- */
+/*-----------------------device tablet start------------------- */
+
 @media screen and (min-width: 577px) and (max-width : 992px) {
     .box-container{
         display: flex;
@@ -281,3 +288,4 @@ padding: 10px;
 width: 100%;
 }
 }
+/*------------------- device tablet end ------------------------*/
