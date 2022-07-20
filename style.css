@@ -170,7 +170,15 @@ margin-left: 10px;
     .contactUs{
         display: flex;
         flex-direction:column;
-  text-align: center;
+        text-align: center;
+    }
+    .media-icon{
+        display: flex;
+        flex-direction:column;
+        text-align: center;
+    }
+    .media-icon i{
+        margin-bottom: 10px;
     }
 }
 
