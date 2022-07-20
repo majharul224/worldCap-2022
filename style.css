@@ -43,6 +43,17 @@ body{
     margin-left: 5px;
     font-size: 8px;
 }
+/*---------------- main tag  style start ------------*/
+.box-container{
+    display: flex;
+}
+#box-1{
+    display: flex;
+    flex-direction: column;
+}
+#box-2{
+    flex-grow: 1;
+}
 
 /* ----------footer style start------------- */
 .footer-container{
