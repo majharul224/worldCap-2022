@@ -39,7 +39,7 @@ body{
     font-size: 10px;
     font-weight: 700;
 }
-.fa-greater-than{
+.fa-arrow-right-long{
     margin-left: 5px;
     font-size: 8px;
 }
@@ -50,10 +50,31 @@ body{
 #box-1{
     display: flex;
     flex-direction: column;
+    width: 20%;
 }
 #box-2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     flex-grow: 1;
+    margin-left: 20px;
+    width: 70%;
 }
+.box{
+    width:310px;
+    height: 450px;
+}
+
+.card-icon, .clock-icon, .message-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ 
+}
+.card-icon p{
+margin-left: 10px;
+}
+
+
 
 /* ----------footer style start------------- */
 .footer-container{
