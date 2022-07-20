@@ -30,15 +30,18 @@ body{
     font-weight: 700;
      font-size: 4vw;
 }
-.half-width a{
+.watch {
     display: inline;
     text-decoration: none;
     background-color:  #ff9a00;
     border-radius: 5px;
     color: #FFFFFF;
-    padding: 5px 15px;
+    padding: 5px 25px;
     font-size: 20px;
     font-weight: 700;
+}
+.watch:hover{
+    transform: scale(1.5) 
 }
 .fa-arrow-right-long{
     margin-left: 5px;
@@ -179,7 +182,7 @@ padding: 10px;
         align-items: center;
     }
     .half-width img{
-        width: 100%;
+        width: 80%;
         height: 200px;
     }
     #box-1{
@@ -212,7 +215,7 @@ padding: 10px;
     }
     .footer-container{
         height: 400px;
-        width: auto;
+        width: 80%;
         background-color: #000000;
         margin-top: 60px;
     }
