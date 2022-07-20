@@ -12,11 +12,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #E5E5E5;
-    color: #000000;
+    background-color:black;
+    color: white;
     padding-left: 50px;
     height: 500px;
     border-radius: 20px;
+    margin-bottom: 50px;
 }
 .half-width{
     width: 50%;
@@ -28,20 +29,19 @@ body{
     font-weight: 700;
      font-size: 4vw;
 }
-.button-style{
-    display: flex;
-    align-items: center;
+.half-width a{
+    display: inline;
+    text-decoration: none;
     background-color:  #ff9a00;
-    border: none;
     border-radius: 5px;
     color: #FFFFFF;
     padding: 5px 15px;
-    font-size: 10px;
+    font-size: 20px;
     font-weight: 700;
 }
 .fa-arrow-right-long{
     margin-left: 5px;
-    font-size: 8px;
+    font-size: 20px;
 }
 /*---------------- main tag  style start ------------*/
 .box-container{
@@ -71,13 +71,20 @@ body{
     flex-grow: 1;
     margin-left: 20px;
     width: 70%;
+    row-gap: 40px;
+    column-gap: 10px;
 }
 .box{
     width:310px;
-    height: 450px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
 }
 .box p {
     padding-left: 20px;
+}
+.box button{
+    margin-left: 20px;
 }
 
 .card-icon, .clock-icon, .message-icon{
@@ -94,9 +101,10 @@ margin-left: 10px;
 
 /* ----------footer style start------------- */
 .footer-container{
-    height: 180px;
+    height: 200px;
     width: auto;
     background-color: #000000;
+    margin-top: 60px;
 }
 .footer-container h1{
     text-align: center;
@@ -106,7 +114,7 @@ margin-left: 10px;
 .contactUs{
     display: flex;
     justify-content: space-around;
-    font-size: 10px;
+    font-size: 15px;
 }
 .contactUs a{
   text-decoration: none ;
@@ -116,4 +124,42 @@ margin-left: 10px;
     display: flex;
     justify-content: space-evenly;
     color: #E5E5E5;
+    font-size: 40px;
+}
+/*----------------------- media quariya------------------ */
+
+
+/*------------------- device mobail ------------------------*/
+
+/*-----------------------device tablet------------------- */
+@media screen and (min-width: 577px) and (max-width : 992px) {
+    .box-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #box-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 50%;
+        height: 100px;
+        background-color:#161616;
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #box-2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 40px;
+        column-gap: 50px;
+    }
+    #box-1 a{
+       padding:     5px 15px;
+    }
+.box button{
+    margin-left: 20px;
+}
 }
